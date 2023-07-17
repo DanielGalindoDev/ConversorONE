@@ -115,7 +115,6 @@ public abstract class ObjetoConvertible implements Serializable{
             }else{
                 break;
             }
-            System.out.println(Actual[i]+"     "+Actual[i+1]);
             if(Actual[i].getClass().equals(Double.class) && Actual[i+1].getClass().equals(Double.class)){
                 if(Actual[i+2].getClass().equals(Double.class)){
                     continue;
